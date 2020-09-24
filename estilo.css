@@ -1,0 +1,145 @@
+
+body {
+    background-color:rgb(4, 57, 75);
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+header{
+    background: purple;
+    color:white;
+    display: flex;
+    justify-content: space-between;    
+}
+nav{
+    display:flex;
+
+}
+ul{
+list-style: none;
+display: flex;
+text-align: center;
+}
+li{
+    display: inline;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    color: springgreen;
+    text-decoration: none;
+}
+h1{
+   
+    
+}
+h1 strong{
+color: green;
+
+}
+.logo img{
+    width: 100px;
+}
+/*
+.padre{
+background:purple;
+display: flex;
+flex-wrap: nowrap ;
+
+}
+.hijo{
+    background:blue ;
+    width: 300px;
+height: 300px;
+border: 2px solid lightblue;
+font-size: 50px ;
+
+}
+*/
+.aplicar{
+height: 500px ;
+background: white;
+display: flex;
+padding: 10px;
+}
+
+
+.aplicar-detalles{
+width: 50%;
+height: inherit;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center ;
+padding: 23px 30px;
+text-align: center;    
+padding: 50px; 
+}
+
+
+
+
+
+.aplicar-detalles img{
+height: 90%;
+}
+
+
+.herramientas{
+    background-color: rgb(57, 54, 233);
+    background-image: url("img/LOGO\ APTP.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:gold;
+    padding:50px;
+    height: 500px;
+}
+
+.principal2{
+width: 250px;
+height: 40px;
+background-color: purple;
+border-radius: 15px;
+}
+.principal12 a{
+    color: mediumspringgreen;
+    text-decoration: none;
+}
+.principal img{
+width: 300px; 
+}
+.segunda{
+        background-color: lightgreen;
+   text-align: right ;
+   display: flex;
+   justify-content: center;
+    }
+.segunda article {
+    width: 30%}
+.texto{
+    font-size: 30px;
+}
+.tercera{
+        background-color:lightskyblue;
+  text-align: center;
+
+    }
+        .segunda-title{
+            text-align: right     ;
+       
+        }
+    h1{
+        padding: 20px;
+    }
+    figure{
+        text-align:left;
+    }
+    .video{
+background: purple;
+text-align: center;
+
+    }
+
+    .row1-contacto img{
+display: flex;
+font-size: 30px;
+    }
